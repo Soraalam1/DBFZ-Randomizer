@@ -1,0 +1,56 @@
+.active{
+  -webkit-filter: grayscale(0%);
+}
+img{
+  -webkit-filter: grayscale(100%);
+}
+li{
+  float: left;
+  list-style-type: none;
+}
+tr{
+  float: left;
+}
+h1{
+  background: #000000;
+}
+.result{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+p{
+  color: white;
+}
+logo{
+  height: 30px;
+}
+footer{
+  margin-top: 75px;
+}
+.footer{
+  padding: 50px;
+  text-align: center;
+}
+.roster{
+  margin-bottom: 10px;
+}
+.btn-primary{
+  background-color: orange;
+}
+.yourteam{
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+}
+/*body{*/
+/*  background-color: burlywood;*/
+/*  margin: 0px;*/
+/*  padding: 0px;*/
+/*}*/
