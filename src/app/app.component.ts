@@ -214,6 +214,17 @@ export class AppComponent {
       active: true,
       imageUrl: "https://dba.bn-ent.net/character/images/select_masterroshi_off.png"
     },
+    {
+       name: "Gogeta (SS4)",
+       active: true,
+       imageUrl: "https://dba.bn-ent.net/character/images/select_gogetaSS4_off.png"
+       },
+       {
+         name: "Android 21 (Lab Coat)",
+         active: true,
+         imageUrl: "https://i.imgur.com/QJTKtIU.png"
+       },
+
     ];
 
   result: [any, any, any];
