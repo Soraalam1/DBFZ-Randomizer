@@ -215,6 +215,11 @@ export class AppComponent {
       imageUrl: "https://dba.bn-ent.net/character/images/select_masterroshi_off.png"
     },
     {
+      name: "Super Baby 2",
+      active: true,
+      imageUrl: "https://dba.bn-ent.net/character/images/select_superbaby2_off.png"
+    },
+    {
        name: "Gogeta (SS4)",
        active: true,
        imageUrl: "https://dba.bn-ent.net/character/images/select_gogetaSS4_off.png"
@@ -222,9 +227,8 @@ export class AppComponent {
        {
          name: "Android 21 (Lab Coat)",
          active: true,
-         imageUrl: "https://i.imgur.com/QJTKtIU.png"
-       },
-
+         imageUrl: "https://www.dustloop.com/wiki/images/1/16/DBFZ_Lab_Coat_Android_21_Icon.png"
+       }
     ];
 
   result: [any, any, any];
@@ -232,10 +236,7 @@ export class AppComponent {
 
 
 toggleActive(character) {
-    if (character.active){
-      character.active = false;
-    }
-    else { character.active = true; }
+    character.active = !character.active;
   }
 
 randomize(){
